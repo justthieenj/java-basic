@@ -1,3 +1,5 @@
+package datatype;
+
 public class StringTest {
     public static void main(String[] args) {
     }
@@ -25,5 +27,23 @@ public class StringTest {
         String str = "Hello World!";
         var r = str.substring(6, 11);
         System.out.println(r); // World
+    }
+
+    public static void example4() {
+        String str = "Selenium WebDriver";
+        String result = str.replace("e", "@");
+        System.out.println(str);
+        System.out.println(result);
+    }
+
+    public static void example5() {
+        // common string methods
+        String str = "Selenium WebDriver";
+//        var result = str.isEmpty(); // ""
+//        var result = str.isBlank();
+//        var result = str.concat(" is a web automation tool");
+//        var result = str.contains("WebDriver"); // startWith, endWith
+        var result = str.toLowerCase();
+        System.out.println(result);
     }
 }

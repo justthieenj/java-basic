@@ -1,3 +1,5 @@
+package datatype;
+
 public class Variable {
     static String a = "abc";
     public static void main(String[] args) {

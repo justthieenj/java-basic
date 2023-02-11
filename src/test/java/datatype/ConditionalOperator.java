@@ -1,3 +1,5 @@
+package datatype;
+
 public class ConditionalOperator {
     public static void example1() {
         // compare operator: ==, !=, >, <, >=, <= (return a boolean value)
@@ -11,5 +13,11 @@ public class ConditionalOperator {
         // true || true -> true
         // true || false -> true
         // false || true -> true
+
+        if (true) {
+            // do something
+        } else {
+            // do something else
+        }
     }
 }
