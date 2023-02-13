@@ -2,10 +2,8 @@ package loop;
 
 public class Loop {
     public static void main(String[] args) {
-        String str = "Selenium";
-        for (int i = 0; i <= str.length(); i++) {
-            System.out.println(i + " " + str.charAt(i));
-        }
+        introduction();
+        doWhile();
     }
 
     public static void introduction() {
@@ -25,5 +23,14 @@ public class Loop {
             System.out.println(i + " " + str.charAt(i));
             i++;
         }
+    }
+
+    public static void doWhile() {
+        String str = "Naruto";
+        int i = 0;
+        do {
+            System.out.println(i + " " + str.charAt(i));
+            i++;
+        } while (i < str.length());
     }
 }
