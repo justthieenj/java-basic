@@ -9,7 +9,7 @@ public class Loop {
     public static void introduction() {
         String str = "Selenium";
         // i++ -> i = i + 1
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < str.length(); i++) {
             System.out.println(i + " " + str.charAt(i));
         }
 

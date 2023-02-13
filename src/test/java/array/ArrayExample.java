@@ -6,10 +6,19 @@ import java.util.List;
 
 public class ArrayExample {
     public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 5, 67, 8, 11};
+        var result = getMax(arr);
+        System.out.println(result);
     }
 
     // Write a method that takes an array of integers and return the maximum value
-    // public static int getMax(int[] arr)
+    public static int getMax(int[] arr) {
+        int max = 0;
+        for (int element : arr) {
+            max = Math.max(max, element);
+        }
+        return max;
+    }
 
     public static void list2() {
         List<Integer> list = List.of(10, 20, 30); // immutable list
