@@ -19,7 +19,7 @@ public class Loop {
             System.out.println(i + " " + str.charAt(i));
         }
 
-        // while do
+        // while
         int i = 0;
         while (i < str.length()) {
             System.out.println(i + " " + str.charAt(i));

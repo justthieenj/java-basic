@@ -21,4 +21,8 @@ public class Feb11 {
     // Hint: Character.isDigit()
     // Example: "Hello 123 Worl45d" -> "12345"
     // public static void printDigits(String str)
+
+    // 4. Write a method that takes a string and the sum of all the digits in the string.
+    // Example: "Hello 123 Worl56d" -> 1+2+3+5+6 = 17
+    // public static int sumDigits(String str)
 }
