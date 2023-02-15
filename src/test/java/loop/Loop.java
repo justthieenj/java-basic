@@ -1,9 +1,27 @@
 package loop;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Loop {
     public static void main(String[] args) {
         introduction();
         doWhile();
+    }
+
+    public static void forEachExample() {
+        String[] names = {"John", "Jane", "James", "Jill"};
+        // convert to list
+        List<String> list = Arrays.asList(names);
+
+        // enhanced for loop
+        for (String name : list) {
+            System.out.println(name);
+        }
+
+        // forEach method (arrow function, lambda expression)
+        list.forEach(name -> System.out.println(name));
+        list.forEach(System.out::println);
     }
 
     public static void introduction() {
