@@ -14,8 +14,8 @@ public class TestVehicle {
         bike.go("Da Nang");
         System.out.println("=====================================");
 
-        // abstract class can be used as a type
-        Vehicle vehicle = new Bike();
-        vehicle.go("Ha Noi");
+        // abstract class and interface class can be used as a type
+        Vehicle bike1 = new Bike();
+        bike1.go("Ha Noi");
     }
 }

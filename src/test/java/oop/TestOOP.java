@@ -5,6 +5,9 @@ public class TestOOP {
         Person peter = new Person("Peter", 20); // 1. create an object
 
         Cat cat = new Cat("Tom", "white");
-        cat.meow();
+        cat.talk();
+
+        Dog dog = new Dog("Jack", "black");
+        dog.talk();
     }
 }

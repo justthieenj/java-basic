@@ -3,7 +3,7 @@ package oop.vehicle;
 public class Car extends Vehicle {
     @Override
     void go() {
-        System.out.println("Vooom");
+        System.out.println("Chiuu");
     }
 
     @Override
