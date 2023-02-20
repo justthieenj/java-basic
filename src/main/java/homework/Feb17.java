@@ -1,5 +1,9 @@
 package homework;
 
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 public class Feb17 {
     /*
      1. Create a Student class that has 2 fields name and major
@@ -29,4 +33,12 @@ public class Feb17 {
     print students with "Good" performance
     sort the students by their grade and print them out
      */
+    public static void main(String[] args) {
+        List<Integer> unmodifiableList = List.of(6, 4, 2, 71, 54);
+        List<Integer> list = new ArrayList<>(unmodifiableList);
+        list.sort(Comparator.reverseOrder());
+
+        list.forEach(e -> System.out.println(e));
+        list.forEach(System.out::println);
+    }
 }
