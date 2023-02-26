@@ -5,5 +5,7 @@ public class LoginTest {
         System.out.println("Test 1  - Login");
         System.out.println("Test 2  - Login with invalid credentials");
         System.out.println("Test 3  - Login with invalid password");
+        System.out.println("Test 6  - Login 6");
+        System.out.println("Test 7  - Login 7");
     }
 }
